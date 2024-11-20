@@ -21,4 +21,11 @@ python setup.py install
 
 # 部署
 
-To bo continue...
+在工作空间下
+
+```bash
+cd src
+git clone https://github.com/YinAGVlab/OrbbecSDK_ros2_py.git
+cd ..
+colcon build --packages-select OrbbecSDK_ros2_py
+```
